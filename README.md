@@ -30,6 +30,7 @@ Cubic runs on distributions based on Ubuntu 18.04.5 Bionic and above.
 
 ## Running Via Docker
 Must be in the same directory as the Dockerfile.
+(This is still being tested and cannot promise it will work feel free to help and contribute)
 
     sudo docker build -t cubic:dev .
     sudo docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /home:/home/cubic cubic:dev

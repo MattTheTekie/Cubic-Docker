@@ -15,7 +15,7 @@ Cubic can be used to customize the Live ISOs for:
 - Most distributions based on Ubuntu
 - Many versions of Debian (tested on Debian 11 Bullseye and above)
 - Many distributions based on Debian
-- 
+  
 ## Running Via Docker
 Must be in the same directory as the Dockerfile.
 (This is still being tested and cannot promise it will work feel free to help and contribute)

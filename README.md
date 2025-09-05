@@ -21,4 +21,6 @@ Must be in the same directory as the Dockerfile.
 (This is still being tested and cannot promise it will work feel free to help and contribute)
 
     sudo docker build --network=host -t cubic:dev .
+    sudo pacman -S xorg-xhost
+    xhost +local:docker
     sudo docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /home:/home/cubic cubic:dev
